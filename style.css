@@ -45,7 +45,7 @@
 .header-content{
     display: flex;
     align-items: center;
-    width: 70%;;
+    width: 70%;
     height:560px;
 }
 
@@ -56,13 +56,14 @@
 .header-content-text h2{
     font-size: 60px;
     color: #e5e7eb;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .header-content-text p{
+    word-spacing:2px;
     font-size: 18px;
     color: #e5e7eb;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .header-content-text button{
@@ -87,5 +88,47 @@
 .header-content-img img{
     border-radius:50px;
     height: 420px;
+    width: auto;
+}
+
+
+.information-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-content .heading{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.path-info{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    /* background-color: aqua; */
+}
+
+.path{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    /* background-color: bisque; */
+}
+
+.path-img{
+    padding: 20px;
+    border: 2px solid #1f29377a;
+    border-radius: 20px;
+    /* background-color: blueviolet; */
+}
+
+.path-img img{
+    height: 200px;
     width: auto;
 }
